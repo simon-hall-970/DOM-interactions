@@ -8,7 +8,7 @@ In this exercise we're going to bind event listeners to DOM elements, and change
 
 2. Take a look at the `style.css` file. For this assignment you don't actually have to make any changes to it, but notice that there are CSS classes for `div.blue`, `div.green`, and `div.invisible`. We'll be using the class names to interact with the elements shown on your board. If you get stuck, look at some of the examples in the resource linked above.
 
-3.  In your `game.js` file, write a function called `makeBlue` that takes an evt parameter. `makeGreen` is provided if you need an example. In your function, add the blue class to the event's target element using classList.toggle.
+3.  In your `game.js` file, write a function called `makeBlue` that takes an event parameter. `makeGreen` is provided if you need an example. In your function, add the blue class to the event's target element using classList.toggle.
 
 4. At the end of the function, call `updateCounts()` so it will update the counts with your new colour.
 
